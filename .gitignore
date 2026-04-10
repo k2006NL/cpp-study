@@ -1,0 +1,13 @@
+# Eigen (ヘッダオンリーライブラリ、リポジトリ管理不要)
+eigen-5.0.0/
+
+# ビルド成果物
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.dll
+
+# VSCode
+.vscode/
