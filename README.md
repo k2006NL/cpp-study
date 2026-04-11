@@ -13,7 +13,6 @@ cpp-study/
 │   ├── ONNX/                  # ONNXモデルの推論高速化
 │   └── bindings/              # pybind11によるPythonバインディング
 ├── ac-library-private/        # AtCoder用アルゴリズム実装（submodule）
-├── ac-library-private/        # AtCoder用アルゴリズム実装（submodule）
 └── third_party/               # 外部ライブラリ（Eigen, ONNX Runtime）
 ```
 
