@@ -7,7 +7,6 @@
 #include <pybind11/eigen.h>
 #include <Eigen/Dense>
 
-using namespace std;
 namespace py = pybind11;
 
 static Ort::Session CreateSession(Ort::Env& env, const std::string& model_path, int num_threads) {

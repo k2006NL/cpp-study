@@ -1,8 +1,6 @@
-// Pythonバインディング
-
 #include <pybind11/pybind11.h>
-#include <pybind11/eigen.h> // EigenとNumPyを自動変換
-#include "Ridge.cpp"
+#include <pybind11/eigen.h>
+#include "../Ridge/Ridge.cpp"
 
 namespace py = pybind11;
 

@@ -40,7 +40,7 @@ try:
     onnx.checker.check_model(onnx_model)
     print("モデル検証○")
 except onnx.checker.ValidationError as e:
-    print("モデル検証×: {e}")
+    print(f"モデル検証×: {e}")
 
 
 

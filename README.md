@@ -11,6 +11,8 @@ cpp-study/
 ├── ML/                        # 機械学習の実装
 │   ├── Ridge/                 # Ridge回帰（Eigenによるコレスキー分解）
 │   ├── ONNX/                  # ONNXモデルの推論高速化
+│   ├── Floyd-Steinberg/       # Floyd-Steinbergディザリング（Python/Numba/C++速度比較）
+│   ├── llama_cpp/             # llama.cppによる量子化推論（学習計画）
 │   └── bindings/              # pybind11によるPythonバインディング
 ├── ac-library-private/        # AtCoder用アルゴリズム実装（submodule）
 └── third_party/               # 外部ライブラリ（Eigen, ONNX Runtime）
